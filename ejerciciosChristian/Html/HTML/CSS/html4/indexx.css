@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+#div1{
+    background-color: rgb(177, 207, 184);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 5px;
+
+}
+
+#div2{
+    background-color:  rgb(100, 180, 120);
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 20px; left: 20px; right: 20px;
+
+}
+
+#div3{
+    background-color:  rgb(58, 173, 87);
+    width: 400px;
+    height: 400px;
+    position: absolute ;
+    top: 40px; left: 40px; right: 20px;
+
+}
+
+#div4{
+    background-color:  rgb(46, 233, 92);
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 60px; left: 60px; right: 20px;
+
+}
+
+#div5{
+    background-color:  rgb(5, 124, 35);
+    width: 300px;
+    height: 300px;
+    position: absolute ;
+    top: 80px; left: 80px; right: 20px;
+
+} 
+
+/*  DOS                  */
+
+#padre{
+    background-color: rgb(140, 214, 159);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border: solid beige;
+}
+
+#hijo1{
+    background-color: rgb(255, 0, 0);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px; left: 20px;
+    border: solid beige;
+}
+
+#hijo2{
+    background-color: rgb(233, 56, 56);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 20px; left: 20px;
+    border: solid beige;
+}
+
+#hijo3{
+    background-color: rgb(180, 24, 24);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px; right: 20px;
+    border: solid beige;
+}
+
+#hijo4{
+    background-color: rgb(134, 9, 9);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 20px; right: 20px;
+    border: solid beige;
+}
+
+
+
+#hijo5{
+    background-color: rgb(255, 134, 98);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 200px; right: 220px;
+    border: solid beige;
+}
+
+/*  TRES                  */
+
+#ventana{
+  background-image:url(/ejerciciosChristian/Html/HTML/html4/img/cyberpunk-2077_3840x2160_xtrafondos.com.jpg);
+  background-size: cover;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    border: solid rgb(19, 19, 14);
+}
+
+#vent1{
+border: solid black;
+width: 400px;
+height: 250px;
+position: absolute;
+
+}
+
+#vent2{
+    border: solid black;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 0; right: 0;
+    }
+    #vent3{
+        border: solid black;
+        width: 400px;
+        height: 250px;
+        position: absolute;
+        bottom: 0;left: 0;
+       
+        }
+        #vent4{
+            border: solid black;
+            width: 400px;
+            height: 250px;
+            position: absolute;
+bottom: 0; right: 0;
+            }
+
+

@@ -1,0 +1,127 @@
+/* RESET */
+*{
+    margin:0%; 
+   padding: 0%;
+   box-sizing: border-box;
+}
+/* CONFIGURACION BODY Y HTML */
+html, body{
+   height: 100%;
+   width: 100%;
+}
+
+header>div>div{
+    position: absolute;
+    left: 20px;
+    top: 1px;
+    background-image: url(/ejerciciosChristian/Html/HTML/CSS/html5/img/logo.png);
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+    }
+
+body{
+   background-image: url(/ejerciciosChristian/Html/HTML/CSS/html5/img/474316-pollos-hermanos-breaking-bad-pueden-convertirse-restaurante-real.webp);
+   background-repeat:no-repeat ;
+   background-size: 100% 100% ;
+}
+
+header{
+   color: rgb(14, 13, 5);
+   
+   /* height: 50px; */
+   display: flex;
+   flex-direction: column;
+   background-color:  rgb(251, 255, 0);
+   position: absolute;
+   width: 100%;
+}
+
+header>div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+header>div div{
+   position: absolute;
+   left: 10px;
+   top: 5px;
+}
+
+.menu {
+   list-style: none;
+   display: flex;
+   color: rgb(53, 45, 45);
+   justify-content: flex-start;
+   gap: 150px;
+   position: relative;
+}
+
+
+
+.submenu{
+   position: absolute;
+
+}
+
+.menu>li{
+padding: 10px;
+}
+
+.submenu{
+   position: absolute;
+   visibility: hidden;
+   list-style: none;
+   top: 30px;
+}
+
+#mostrar:hover .submenu{
+   visibility: visible;
+}
+
+
+.menu>li{
+    padding: 10px;
+}
+
+.menu>li:hover{
+    background-color: rgb(255, 217, 0);
+}
+
+.submenu li:hover{
+    background-color: rgb(251, 255, 0);
+}
+
+.main{
+   height: 110%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:  rgb(251, 255, 0);
+
+}
+
+.icon {
+   display: inline-block;
+   width: 1rem;
+   height: 1rem;
+   stroke-width: 0;
+   stroke: currentColor;
+   fill: currentColor;
+ }
+
+.icon {
+   display: inline-block;
+   width: 1em;
+   height: 1em;
+   stroke-width: 0;
+   stroke: currentColor;
+   fill: currentColor;
+ }
+
+ a{
+    color: rgba(15, 15, 10, 0.831) ;
+    text-decoration: none;
+ }

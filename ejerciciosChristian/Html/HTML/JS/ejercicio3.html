@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var valor = 11;
+        
+        for (i = 0;i<25;i++ ) {
+           console.log(valor);
+            valor+=11
+            
+        }
+
+        let x = 8
+        while(x<500){
+console.log(x);
+x+=8
+        }
+
+        var par1=parseInt(prompt("ingrese el primero digito"))
+        var par2=parseInt(prompt("ingrese el segundo digito digito"))
+
+        if (par1 ==par2){
+            alert("ERROR")
+            var par1=parseInt(prompt("ingrese el primero digito"))
+        var par2=parseInt(prompt("ingrese el segundo digito digito"))
+        }
+        if(par1 > par2){
+              
+            for(i=num2;i<=num1;i++){
+               if(i%2==0){
+                console.log(i);
+               }
+            }
+        }else if(num2 > num1){
+            for(i=num1;i<=num2;i++){
+               if(i%2==0){
+                    console.log(i);
+                }
+            }
+
+        }else{
+            console.log("error");
+        }
+
+        ////////////////////////////////////////////////////////////////7
+             var valor1 = parseInt(prompt("ingrese el primer dato"))
+             var contador = 0;
+
+             
+             while(valor1 != 9999){
+               contador+=valor1
+               console.log(contador);
+             }
+
+       ////////////////////////////////////////////////////////////////////
+          
+
+       for (y =1;y <=100;y++){
+        if(y %3==0 && y %2==0)
+
+        console.log(y);
+       }
+
+            ///////////////////////////////////////////////////////////////////
+
+            var contraseña = 123456
+            var verificacion = parseInt(prompt("ingrese la contraseña porfavor solo tiene 3 intentos"))
+            var intentos = 1
+            var restantes = 3
+
+                while(contraseña!=verificacion){
+                    if(intentos < 4){
+                        restantes=restantes-1
+                    alert(`ERROR vuelva a ingresar la contraseña,intento ${intentos} y te quedan ${restantes} intentos`)
+                    verificacion = parseInt(prompt("ingrese la contraseña porfavor"))
+             intentos++
+             
+                }
+                }
+                console.log("contraseña aceptada");
+               
+           //////////////////////////////////////////////////
+
+    
+        
+
+    </script>
+</body>
+</html>

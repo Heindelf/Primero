@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      alert("Bienvenido a cagastar");
+
+      var tiempo = +prompt("Porfavor ingrese el tiempo de llamada que tuvo");
+      var tipo = +prompt(`
+----------------INGRESE QUE TIPO DE LLAMADA REALIZO------------------
+1.Local
+2.Regional
+3.Larga distancia nacional
+4.Larga distancia internacional
+5.A celular
+`);
+      alert(
+        "recuerde que las llamadas regionales y larga distancia tienen un descuento de 5% si la duracion de esta es de 5 minutos o mas,gracias"
+      );
+      if (tipo === 1) {
+        Local = tiempo * 50;
+        ("el cobro por la llamada es de : " + Local);
+      } else if (tipo === 2) {
+        Regional = tiempo * 100;
+        console.log("el cobro por la llamada es de : " + Regional);
+      } else if (tipo === 3) {
+            if (tiempo >5){
+                largaDistanciaNacionalDescuento = (tiempo*500*5)/100
+                console.log("el cobro por la llamada menos el 5% es de :" +largaDistanciaNacionalDescuento);
+            }else{
+                largaDistanciaNacional = tiempo * 500;
+        console.log(
+          "el cobro por la llamada es de : " + largaDistanciaNacional
+        );
+            }
+       
+      } else if (tipo === 4) {
+
+        if (tiempo >5){
+                largaDistanciaInternacionalDescuento = (tiempo*700*5)/100
+                console.log("el cobro por la llamada menos el 5% es de :" +largaDistanciaInternacionalDescuento);
+            }else{
+                largaDistanciaInternacional = tiempo * 700;
+        console.log(
+          "el cobro por la llamada es de : " + largaDistanciaInternacional
+        );
+            }
+      } else if (tipo === 5) {
+        celular = tipo * 200;
+        console.log("el cobro por la llamada es de : " + celular);
+      } else {
+        alert("ERROR");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var Nombre = prompt("ingrese el nombre del escuincle")
+        var parcial1 =+ prompt("ingrese la nota del primer parcial")
+        var parcial2 =+ prompt("ingrese la nota del segundo parcial")
+        while (parcial1 >5 || parcial1<0){
+            alert("la nota que ingreso debe estar en el rango de 0 a 5")
+            parcial1 =+ prompt("ingrese de nuevo la nota del primer examen")
+        }
+        while (parcial2 >5 || parcial2<0){
+            alert("la nota que ingreso debe estar en el rango de 0 a 5")
+            parcial2 =+ prompt("ingrese de nuevo la nota del segundo examen")
+        }
+        function promedio(promedio){
+       
+            var promedio = parcial1+parcial2/2
+            return promedio;
+        }
+
+        if (promedio <2){
+         alert(`lo sentimos el escuincle ${Nombre}reprobo la asignatura con una nota de ${promedio}`)
+        }else{
+            alert(`felicidades el estudiante ${Nombre} podra presentar el examen final`)
+            var parcialFinal =+ prompt("ingrese la nota final")
+            while (parcialFinal >5 || parcialFinal<0){
+            alert("la nota que ingreso debe estar en el rango de 0 a 5")
+            parcialFinal =+ prompt("ingrese de nuevo la nota del examen final")
+        }
+          if (parcialFinal < 2){
+          alert(`el escuincle no aprobo la materia ya que saco una nota de ${parcialFinal}`)
+          }else if (parcial1 >=2){
+            promedioFinal = promedio + parcialFinal
+
+          }
+    }       
+
+    </script>
+</body>
+</html>

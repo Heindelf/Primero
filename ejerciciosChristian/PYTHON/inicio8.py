@@ -4,7 +4,9 @@ horaTrabajada = 0
 Empresa = []
 Descuento = 0
 
-Empleado ={}
+Empleado ={
+}
+
 
 
 for i in range(n):
